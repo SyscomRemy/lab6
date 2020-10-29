@@ -1,0 +1,25 @@
+CR LAB6
+___________________________________________________________________________________________________
+1) env
+La variable d'environement de home est HOME (HOME=/home/student)
+
+2) echo $PATH
+
+3) ps -ef
+
+4)sudo mv question3 /opt
+
+
+5)export PATH=$PATH:/opt (Ajout du répertoire au PATH) 
+  question3.sh (Appel direct du script depuis n'importe quel endroit)
+
+
+6)question3.sh: command not found (il ne trouve pas le script)
+
+7)c'est le script bash rc qui s'éxécute automatiquement au démarage
+
+Affichage du scrip: ls .bashrc
+Modification : vim .bashrc (on ajoute a la fin export PATH=$PATH:/opt pour pouvoir éxecuter le script puis on sauvegarde et on ferme le terminal )
+
+8)question.sh (il s'exécute bien)
+
