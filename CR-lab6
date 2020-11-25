@@ -4,8 +4,12 @@ ________________________________________________________________________________
 La variable d'environement de home est HOME (HOME=/home/student)
 
 2) echo $PATH
+contient tout les chemins à partir du repertoire /usr 
+(permet d'accéder à des exécutable de n'importe quel endroit du système)
 
-3) ps -ef
+3)
+#!/bin/bash
+ps -ef
 
 4)sudo mv question3 /opt
 
@@ -16,9 +20,9 @@ La variable d'environement de home est HOME (HOME=/home/student)
 
 6)question3.sh: command not found (il ne trouve pas le script)
 
-7)c'est le script bash rc qui s'éxécute automatiquement au démarage
+7)c'est le script bashrc qui s'éxécute automatiquement au démarage
 
-Affichage du scrip: ls .bashrc
+Affichage du script: ls .bashrc
 Modification : vim .bashrc (on ajoute a la fin export PATH=$PATH:/opt pour pouvoir éxecuter le script puis on sauvegarde et on ferme le terminal )
 
 8)question.sh (il s'exécute bien)
